@@ -1,21 +1,21 @@
-**Este projeto é feito em GO na versão 1.18** (h2)
+## **Este projeto é feito em GO na versão 1.18**
 
 toda sua estrutura foi formada com base em aprender os conceitos basicos de criação de API utilizando a linguagem GO,
 foi utilizado um video tutorial como base, além de que eu implementei algumas ideias confome o meu gosto com o objetivo de experimentar
 também me basiei na estrutura que é utilizada no lumen
 
-Controllers (h3)
+### Controllers
 
     -> Os controllers tem como arquivo principal o "controller.go", nele é onde fica as interfaces, determinando as funções do controller que podem ser usadas externamente
 
     -> O controller possui seu coonstruct para que seja um referencial na hora de chamar os mesmos nas rotas, colocando asssim as funções de forma a estarem em um construct
 
-Router (h3)
+### Router
 
     -> As rotas estão separadas em dois arquivos, um que é responsavel por apenas iniciar as rotas, e outro onde determnina qual função cada rota executa
     -> Para ser possivel chamar uma função de um controler em alguma rota, antes deve-se declarar ela no topo e chama a função a partir do controller declarado
 
-Config (h3)
+### Config
  
   possui varios arquivos odne determinam algumas informações utilizadas no projeto
 
@@ -23,7 +23,7 @@ Config (h3)
     -> O arquivo config tem como objetivo startar algumas outras configurações, como por exemplo, fazer conexão com a base de dados. Ele também é responsavel por deixar alguns arquivos serem acessados externamente, como no caso, as informações da base de dados
     ->os arquivos que possuem nomes de bases de dados, tem como objetivo fazer conexão com as mesmas
 
-Model (h3)
+### Model
 
     ...
 
